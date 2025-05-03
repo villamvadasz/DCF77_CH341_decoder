@@ -1,0 +1,21 @@
+#ifndef _C_DCF77_H_
+#define _C_DCF77_H_
+
+	#define DCF77_TCO() 	DCF77_usb_TCO();
+	#define DCF77_PON(a)	DCF77_usb_PON(a);
+
+	//#define DCF77_TCO_PORT		PORTBbits.RB5
+	//#define DCF77_TCO_TRIS		TRISBbits.TRISB5
+	//#define DCF77_TCO_LAT		LATBbits.LATB5
+
+	//#define DCF77_PON_PORT		PORTBbits.RB5
+	//#define DCF77_PON_TRIS		TRISBbits.TRISB5
+	//#define DCF77_PON_LAT		LATBbits.LATB5
+
+	#define DCF77_POLLIN_INVERTED_SIGNAL
+	#define DCF77_USE_SIMPLE_PROCESSING
+	#define DCF77_USE_USB_TO_PRINT
+	//#define DCF77_TRIGGER_PON_EVERY_X_HOUR 3
+	//#define DCF77_TRIGGER_PON_WHEN_NO_CHANGE_ON_PORT
+
+#endif
