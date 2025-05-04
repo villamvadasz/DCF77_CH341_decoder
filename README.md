@@ -34,7 +34,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
 ### CH341
-You need to have CH341DLL.DLL. If you dont forget, then install the drivers for the CH341.
+You need to have CH341DLL.DLL. If you dont have it, then install the drivers for the CH341.
 
 ### Meteotime decrypt
 The meteotime decrypt is empty.
