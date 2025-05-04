@@ -27,13 +27,10 @@
 
 	extern uint8 dcf77_meteotime_decrypt_dataset(unsigned char *encrypted, unsigned char *decrypted, uint32 *clearValue);
 
-	
 	//Internal interface
 	extern uint16 dcf77_meteotime_CalculateSetNumber(uint32 hour, uint32 min, uint32 utcOffset);
 	extern void dcf77_meteotime_packet_add_received_message(unsigned char *dcf77_data);
 	extern uint8 dcf77_meteotime_packet_get_received_weather(uint32 *clearValue, uint8 *hour, uint8 *min, uint8 *utcOffset);
-	extern uint8 dcf77_meteotime_decrypt(unsigned char *encrypted, unsigned char *decrypted);
-	extern void dcf77_meteotime_decrypt_dcf77_to_encrypted_packet(unsigned char *dcf77_data_0, unsigned char *dcf77_data_1, unsigned char *dcf77_data_2, unsigned char *dcf77_meteotime_ecrypted);
 
 	extern void init_dcf77_meteotime(void);
 	extern void do_dcf77_meteotime(void);

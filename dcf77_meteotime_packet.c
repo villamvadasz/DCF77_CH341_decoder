@@ -4,6 +4,7 @@
 
 #include "dcf77.h"
 #include "k_stdtype.h"
+#include "dcf77_meteotime_decrypt.h"
 
 volatile uint32 do_dcf77_meteotime_packet_1ms = 0;
 
